@@ -7,19 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E919313B2C8743AC00DAB346 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E919313A2C8743AC00DAB346 /* MainView.swift */; };
+		E91B39842C902B740054C5BD /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91B39832C902B740054C5BD /* GroupView.swift */; };
 		E933A0882C85E5A30033ED94 /* MemoryFlowerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933A0872C85E5A30033ED94 /* MemoryFlowerApp.swift */; };
-		E933A08A2C85E5A30033ED94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933A0892C85E5A30033ED94 /* ContentView.swift */; };
+		E933A08A2C85E5A30033ED94 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933A0892C85E5A30033ED94 /* HomeView.swift */; };
 		E933A08C2C85E5A40033ED94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E933A08B2C85E5A40033ED94 /* Assets.xcassets */; };
 		E933A0902C85E5A40033ED94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E933A08F2C85E5A40033ED94 /* Preview Assets.xcassets */; };
+		E933A0982C85F3900033ED94 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933A0972C85F3900033ED94 /* LoginView.swift */; };
+		E933A09A2C85F3EF0033ED94 /* EnrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E933A0992C85F3EF0033ED94 /* EnrollView.swift */; };
+		E9B923EF2C8ECE1C00ED45D0 /* PersonalSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B923EE2C8ECE1C00ED45D0 /* PersonalSettingView.swift */; };
+		E9B923F12C8EE5A500ED45D0 /* PersonTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B923F02C8EE5A500ED45D0 /* PersonTextFieldView.swift */; };
+		E9B923F62C8F34A100ED45D0 /* SwiftyCrop in Frameworks */ = {isa = PBXBuildFile; productRef = E9B923F52C8F34A100ED45D0 /* SwiftyCrop */; };
+		E9E35DE42C8B2CBD00299169 /* TabControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E35DE32C8B2CBD00299169 /* TabControlView.swift */; };
+		E9E35DE62C8B2EDC00299169 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E35DE52C8B2EDC00299169 /* CustomTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E919313A2C8743AC00DAB346 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E91B39832C902B740054C5BD /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
 		E933A0842C85E5A30033ED94 /* MemoryFlower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryFlower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E933A0872C85E5A30033ED94 /* MemoryFlowerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryFlowerApp.swift; sourceTree = "<group>"; };
-		E933A0892C85E5A30033ED94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E933A0892C85E5A30033ED94 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E933A08B2C85E5A40033ED94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E933A08D2C85E5A40033ED94 /* MemoryFlower.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MemoryFlower.entitlements; sourceTree = "<group>"; };
 		E933A08F2C85E5A40033ED94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E933A0972C85F3900033ED94 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E933A0992C85F3EF0033ED94 /* EnrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrollView.swift; sourceTree = "<group>"; };
+		E9B923EE2C8ECE1C00ED45D0 /* PersonalSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalSettingView.swift; sourceTree = "<group>"; };
+		E9B923F02C8EE5A500ED45D0 /* PersonTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTextFieldView.swift; sourceTree = "<group>"; };
+		E9E35DE32C8B2CBD00299169 /* TabControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabControlView.swift; sourceTree = "<group>"; };
+		E9E35DE52C8B2EDC00299169 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +44,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9B923F62C8F34A100ED45D0 /* SwiftyCrop in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E91B39812C902AFB0054C5BD /* PersonalView */ = {
+			isa = PBXGroup;
+			children = (
+				E9B923EE2C8ECE1C00ED45D0 /* PersonalSettingView.swift */,
+				E9B923F02C8EE5A500ED45D0 /* PersonTextFieldView.swift */,
+			);
+			path = PersonalView;
+			sourceTree = "<group>";
+		};
+		E91B39822C902B2E0054C5BD /* GroupView */ = {
+			isa = PBXGroup;
+			children = (
+				E91B39832C902B740054C5BD /* GroupView.swift */,
+			);
+			path = GroupView;
+			sourceTree = "<group>";
+		};
 		E933A07B2C85E5A30033ED94 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +87,8 @@
 		E933A0862C85E5A30033ED94 /* MemoryFlower */ = {
 			isa = PBXGroup;
 			children = (
+				E933A0962C85E5B40033ED94 /* View */,
 				E933A0872C85E5A30033ED94 /* MemoryFlowerApp.swift */,
-				E933A0892C85E5A30033ED94 /* ContentView.swift */,
 				E933A08B2C85E5A40033ED94 /* Assets.xcassets */,
 				E933A08D2C85E5A40033ED94 /* MemoryFlower.entitlements */,
 				E933A08E2C85E5A40033ED94 /* Preview Content */,
@@ -67,6 +102,37 @@
 				E933A08F2C85E5A40033ED94 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E933A0962C85E5B40033ED94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E91B39822C902B2E0054C5BD /* GroupView */,
+				E91B39812C902AFB0054C5BD /* PersonalView */,
+				E9B923EC2C8ECD9200ED45D0 /* Login & Enroll View */,
+				E9E35DE22C8B2C9A00299169 /* TabView */,
+				E919313A2C8743AC00DAB346 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9B923EC2C8ECD9200ED45D0 /* Login & Enroll View */ = {
+			isa = PBXGroup;
+			children = (
+				E933A0892C85E5A30033ED94 /* HomeView.swift */,
+				E933A0972C85F3900033ED94 /* LoginView.swift */,
+				E933A0992C85F3EF0033ED94 /* EnrollView.swift */,
+			);
+			path = "Login & Enroll View";
+			sourceTree = "<group>";
+		};
+		E9E35DE22C8B2C9A00299169 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				E9E35DE32C8B2CBD00299169 /* TabControlView.swift */,
+				E9E35DE52C8B2EDC00299169 /* CustomTabView.swift */,
+			);
+			path = TabView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +151,9 @@
 			dependencies = (
 			);
 			name = MemoryFlower;
+			packageProductDependencies = (
+				E9B923F52C8F34A100ED45D0 /* SwiftyCrop */,
+			);
 			productName = MemoryFlower;
 			productReference = E933A0842C85E5A30033ED94 /* MemoryFlower.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +182,9 @@
 				Base,
 			);
 			mainGroup = E933A07B2C85E5A30033ED94;
+			packageReferences = (
+				E9B923F42C8F34A000ED45D0 /* XCRemoteSwiftPackageReference "SwiftyCrop" */,
+			);
 			productRefGroup = E933A0852C85E5A30033ED94 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +211,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E933A08A2C85E5A30033ED94 /* ContentView.swift in Sources */,
+				E933A0982C85F3900033ED94 /* LoginView.swift in Sources */,
+				E9B923EF2C8ECE1C00ED45D0 /* PersonalSettingView.swift in Sources */,
+				E91B39842C902B740054C5BD /* GroupView.swift in Sources */,
+				E933A08A2C85E5A30033ED94 /* HomeView.swift in Sources */,
+				E933A09A2C85F3EF0033ED94 /* EnrollView.swift in Sources */,
+				E9B923F12C8EE5A500ED45D0 /* PersonTextFieldView.swift in Sources */,
+				E919313B2C8743AC00DAB346 /* MainView.swift in Sources */,
+				E9E35DE42C8B2CBD00299169 /* TabControlView.swift in Sources */,
 				E933A0882C85E5A30033ED94 /* MemoryFlowerApp.swift in Sources */,
+				E9E35DE62C8B2EDC00299169 /* CustomTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +439,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E9B923F42C8F34A000ED45D0 /* XCRemoteSwiftPackageReference "SwiftyCrop" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/benedom/SwiftyCrop.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E9B923F52C8F34A100ED45D0 /* SwiftyCrop */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9B923F42C8F34A000ED45D0 /* XCRemoteSwiftPackageReference "SwiftyCrop" */;
+			productName = SwiftyCrop;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E933A07C2C85E5A30033ED94 /* Project object */;
 }
